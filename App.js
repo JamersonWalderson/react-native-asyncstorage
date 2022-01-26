@@ -39,7 +39,7 @@ export default function App (){
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* <Text style={styles.welcome}>{ username ? "Seja bem vindo " + username : '' }</Text> */}
+      <Text style={styles.welcome}>{ username ? "Seja bem vindo " + username : '' }</Text>
 
       <View style={styles.containerButton}>
         <TextInput 
